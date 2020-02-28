@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ContactApp.ContactPage"
+             x:Name="ContactsPage">
+    
+        <ContentPage.ToolbarItems>
+            <ToolbarItem Text="Contacts" Order="Primary" Priority="0">
+                
+
+            </ToolbarItem>
+        </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+
+        <StackLayout Padding="0,20">
+            <ListView ItemsSource="{Binding Contacts}"
+                      RowHeight="100"
+                      SelectedItem="{Binding ContactSelected, Mode=TwoWay}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.ContextActions>
+                                <MenuItem Text="Delete"
+                                      IsDestructive="True"
+                                      Command="{Binding Path=BindingContext.DeleteCommand, Source={x:Reference ContactsPage}}"
+                                      CommandParameter="{Binding .}"/>
+                            </ViewCell.ContextActions>
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="{Binding Photo}"/>
+                                <Label Text="{Binding Name}" FontSize="Medium" HorizontalOptions="Center" Padding="0,30,0,0"/>
+                                <Label Text="{Binding Number}" FontSize="Medium" HorizontalOptions="Start" Padding="0,30,0,0"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

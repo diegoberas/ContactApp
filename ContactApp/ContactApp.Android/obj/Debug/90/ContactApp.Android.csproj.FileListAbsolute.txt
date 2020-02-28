@@ -1,0 +1,5 @@
+C:\Users\san\source\repos\ContactApp\ContactApp\ContactApp.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+C:\Users\san\source\repos\ContactApp\ContactApp\ContactApp.Android\obj\Debug\90\build.props
+C:\Users\san\source\repos\ContactApp\ContactApp\ContactApp.Android\obj\Debug\90\adb.props
+C:\Users\san\source\repos\ContactApp\ContactApp\ContactApp.Android\obj\Debug\90\ContactApp.Android.csprojAssemblyReference.cache
+C:\Users\san\source\repos\ContactApp\ContactApp\ContactApp.Android\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp

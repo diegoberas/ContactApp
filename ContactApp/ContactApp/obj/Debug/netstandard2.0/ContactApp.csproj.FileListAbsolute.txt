@@ -1,0 +1,7 @@
+C:\Users\san\source\repos\ContactApp\ContactApp\ContactApp\obj\Debug\netstandard2.0\ContactApp.csprojAssemblyReference.cache
+C:\Users\san\source\repos\ContactApp\ContactApp\ContactApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\san\source\repos\ContactApp\ContactApp\ContactApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\san\source\repos\ContactApp\ContactApp\ContactApp\obj\Debug\netstandard2.0\Views\AddContactPage.xaml.g.cs
+C:\Users\san\source\repos\ContactApp\ContactApp\ContactApp\obj\Debug\netstandard2.0\Views\ContactPage.xaml.g.cs
+C:\Users\san\source\repos\ContactApp\ContactApp\ContactApp\obj\Debug\netstandard2.0\ContactApp.AssemblyInfoInputs.cache
+C:\Users\san\source\repos\ContactApp\ContactApp\ContactApp\obj\Debug\netstandard2.0\ContactApp.AssemblyInfo.cs
